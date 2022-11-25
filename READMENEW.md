@@ -8,4 +8,10 @@ git status update us with whats going on the repo
   -- 'git diff: compare current uncommited state with last known git state
    -- 'git diff --stages : runs git diff btw the statging area and last known state
    -- 'git diff HEAD!<number> : compares HEAD with commit <num> ago(relative)
-   -- 'git diff <HASH> : compares HEAD with the comit in <HASH>
+    -- 'git diff <HASH> : compares HEAD with the comit in <HASH>
+     == 'git restore --source <HASH OR HEAD!> : restore file to <hash or head>
+     == 'git checkout<HASH OR HEAD~> <FILE> : RESTORE FILE TO <HASH OR HEAD~
+     (if you forget the file name you end up wit ha detached head>
+     == 'git checkout - (main) : go back to main
+     == 'git switch - (main): go back to main
+
