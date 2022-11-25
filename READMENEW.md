@@ -14,4 +14,7 @@ git status update us with whats going on the repo
      (if you forget the file name you end up wit ha detached head>
      == 'git checkout - (main) : go back to main
      == 'git switch - (main): go back to main
-
+= 'git remote add <NAME> <URL>':adds the <URL> as a remote with the name <NAME>
+= 'git romote -v" : look at all the remotes you have 
+= 'git romote rm' <NAME>: removes the remote called <NAME>
+= 'git push': <WHERE> <WHAT>: pushes the <what> branch to <where> (git push origin master)
