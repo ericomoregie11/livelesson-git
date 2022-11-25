@@ -18,3 +18,4 @@ git status update us with whats going on the repo
 = 'git romote -v" : look at all the remotes you have 
 = 'git romote rm' <NAME>: removes the remote called <NAME>
 = 'git push': <WHERE> <WHAT>: pushes the <what> branch to <where> (git push origin master)
+^ git pull <WHERE> <WHAT>: pulls the <WHAT> branch in <WHERE> to local computer
