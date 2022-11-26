@@ -24,3 +24,11 @@
  - 'git romote rm' <NAME>: removes the remote called <NAME>
  - 'git push': <WHERE> <WHAT>: pushes the <what> branch to <where> (git push origin master)
  -  git pull <WHERE> <WHAT>: pulls the <WHAT> branch in <WHERE> to local computer
+
+## branches
+ - git branch <NAME> : creates branch <NAME> where you are (HEAD)
+ - git switch <NAME> statement: move the head pointer to the branch <NAME>
+   - git checkout <name> : also move the head to the branch name on older git versions
+ - git switch -c <name> : create and move the head pointer to the newly created branch <name> in 1 command
+   - git checkout -b <name>: also do what switch -c do but for git older versions
+
