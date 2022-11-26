@@ -1,4 +1,4 @@
-# Git notes
+# Git notes for local worki
  - git init used to initilize a directory to a repo
  - git status update us with whats going on the repo
  - 'git add <file>' : use this command to add file to the stagng area
@@ -14,7 +14,7 @@
     when you forget to name the file you end up with a detached head
  - 'git checkout - (main) : go back to main
  - 'git switch - (main): go back to main
- # Remotes
+# Git nites for remote work
  - 'git remote add <NAME> <URL>':adds the URL> as a remote with the name <NAME>
  - 'git romote -v" : look at all the remotes you have 
  - 'git romote rm' <NAME>: removes the remote called <NAME>
