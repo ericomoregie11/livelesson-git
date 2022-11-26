@@ -32,5 +32,4 @@
  - git switch -c <name> : create and move the head pointer to the newly created branch <name> in 1 command
    - git checkout -b <name>: also do what switch -c do but for git older versions
  - git merge <BRANCH>: while head is pointed to main use merge command to merge <BRANCH> into the current main branch                       (dont use merge while on nay other branch other than the main branch
- - git rebase <Branch>: while head is pointed to the other <BRANCH> not main use rebase comand to incoporate changes                            into main branch.
-
+ - git rebase <Branch>: while head is pointed to the other <BRANCH> not main use rebase comand to incoporate changes                            into main branch. (made this adjustment in new branch trying rebase)
