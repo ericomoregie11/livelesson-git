@@ -41,4 +41,5 @@
  - git rebase -i <commit> HEAD~ or <HASH> : of commit to go into interactive rebase mode 
                                             you can the make multiple commits changes in interactive mode e.g. 'squash'
    - git rebase -i <HASH>^: uses the ^ symbol to include that commit in interactive rebase 
-
+    (*notes When you trying to resolve conflits in multiple commit its best to squash all the commit into 1 and just         deal with conflit in one branch)
+ 
