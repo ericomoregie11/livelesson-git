@@ -32,4 +32,13 @@
  - git switch -c <name> : create and move the head pointer to the newly created branch <name> in 1 command
    - git checkout -b <name>: also do what switch -c do but for git older versions
  - git merge <BRANCH>: while head is pointed to main use merge command to merge <BRANCH> into the current main branch                       (dont use merge while on nay other branch other than the main branch
- - git rebase <Branch>: while head is pointed to the other <BRANCH> not main use rebase comand to incoporate changes                            into main branch. (made this adjustment in new branch trying rebase)
+ - git rebase <Branch>: while head is pointed to the other <BRANCH> not main use rebase comand to incoporate changes                            into main branch. (made this adjustment in new branch trying rebase
+ - git rebase: command used to change history of a commit
+   - git status: is your best friend when using rebase 
+   - git add <FILE> : to help mark conflit resolution
+   - git rebase --continue: move to the next commit in rebase when you have multiple commit you want to rebase into main
+   - git rebase --abort: undo git rebase step
+ - git rebase -i <commit> HEAD~ or <HASH> : of commit to go into interactive rebase mode 
+                                            you can the make multiple commits changes in interactive mode e.g. 'squash'
+   - git rebase -i <HASH>^: uses the ^ symbol to include that commit in interactive rebase 
+
