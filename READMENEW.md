@@ -31,4 +31,4 @@
    - git checkout <name> : also move the head to the branch name on older git versions
  - git switch -c <name> : create and move the head pointer to the newly created branch <name> in 1 command
    - git checkout -b <name>: also do what switch -c do but for git older versions
-
+ - git merge <BRANCH>: 
